@@ -132,6 +132,10 @@ img {
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .about {
 
     align-items: center;
