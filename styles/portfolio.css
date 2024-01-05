@@ -12,7 +12,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
+    margin: 0 230px;
 }
 
 .navtitle {
@@ -26,7 +27,7 @@ nav {
 
 .text-orange {
     color: #FD6E0A;
-  
+
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
@@ -62,6 +63,32 @@ a {
     color: white;
     color: var(--Dark-02, #fffcfc);
     font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 18px 35px;
+}
+
+/* header related style */
+header {
+    background: #FFF8F3;
+
+}
+
+.banner {
+    padding: 30 30 30 150;
+    display: flex;
+}
+
+img {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
