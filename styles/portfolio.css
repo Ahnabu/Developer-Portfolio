@@ -282,8 +282,27 @@ footer{
 padding: 130px 230px;
     background: #FFF8F3;
     margin-top: 100px;
+    gap: 100px;
 }
 .social-icon{
     width: 24px;
     height: 24px;
+    margin-right: 25px;
+}
+.footer-column{
+    width: 50%;
+
+}
+.section-description{
+    text-align: left;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: var(--Dark-03, #757575);
+    border-radius: 5px;
+background: var(--White-Color, #FFF);
+border: 0;
+width: 100%;
 }
